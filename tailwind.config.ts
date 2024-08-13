@@ -18,6 +18,9 @@ const config: Config = {
         navText: "#0B2347",
         spanText: "#2ECC71",
       },
+      backgroundColor: {
+        advertBg: "#ECF0F1",
+      },
       width: {
         header: "1440px",
         "hire-btn": "150px",
@@ -46,7 +49,7 @@ const config: Config = {
       },
       fontSize: {
         custom: "8px",
-        textCustom: "10px"
+        textCustom: "10px",
       },
       lineHeight: {
         custom: "8px",
