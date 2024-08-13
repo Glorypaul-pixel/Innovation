@@ -11,30 +11,32 @@ const Header: React.FC = () => {
           Transforming the future
         </p>
       </div>
-      <nav className="flex space-x-4 text-navText text-base font-fira font-semibold">
-        <a
-          href="#home"
-          className="text-hireMe underline-offset-2 border-b-2 border-hireMe"
-        >
-          Home
-        </a>
-        <a href="#about" className="hover:text-hireMe">
-          About Us
-        </a>
-        <a href="#services" className="hover:text-hireMe">
-          Services
-        </a>
-        <a href="#contact" className="hover:text-hireMe">
-          Contact Us
-        </a>
-      </nav>
-      <div className="flex items-center justify-center gap-10">
-        <a
-          href="#hire"
-          className="bg-hireMe text-white font-bold py-2 px-4 rounded h-hire-btn w-hire-btn flex items-center justify-center"
-        >
-          Hire Us
-        </a>
+      <div className="flex items-center space-x-28">
+        <nav className="flex space-x-14 text-navText text-xs font-fira font-semibold">
+          <a
+            href="#home"
+            className="text-hireMe underline-offset-2 border-b-2 border-hireMe"
+          >
+            Home
+          </a>
+          <a href="#about" className="hover:text-hireMe">
+            About Us
+          </a>
+          <a href="#services" className="hover:text-hireMe">
+            Services
+          </a>
+          <a href="#contact" className="hover:text-hireMe">
+            Contact Us
+          </a>
+        </nav>
+        <div className="flex items-center justify-center gap-10">
+          <a
+            href="#hire"
+            className="bg-hireMe text-xs text-white font-bold py-2 px-4 h-hire-btn w-hire-btn flex items-center justify-center"
+          >
+            Hire Us
+          </a>
+        </div>
       </div>
     </header>
   );

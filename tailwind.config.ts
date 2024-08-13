@@ -20,18 +20,18 @@ const config: Config = {
       },
       width: {
         header: "1440px",
-        "hire-btn": "171px",
+        "hire-btn": "150px",
         logo: "54px",
         "custom-p": "54px",
       },
       height: {
         header: "87px",
-        "hire-btn": "47px",
+        "hire-btn": "40px",
         logo: "56px",
         "custom-p": "6px",
       },
       padding: {
-        header: "16px 100px 15px 100px",
+        header: "12px 30px 10px 30px",
         "hire-btn": "14px 60px",
       },
       gap: {
@@ -45,7 +45,8 @@ const config: Config = {
         fira: ["Fira Sans", "sans-serif"],
       },
       fontSize: {
-        custom: "5px",
+        custom: "8px",
+        textCustom: "10px"
       },
       lineHeight: {
         custom: "8px",
