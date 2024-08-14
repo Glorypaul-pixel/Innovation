@@ -18,9 +18,13 @@ const config: Config = {
         navText: "#0B2347",
         spanText: "#2ECC71",
         qoute: "#F39C12",
+        tmotext: "#0B2347",
+        pTmotext: " #113349 ",
       },
       backgroundColor: {
         advertBg: "#ECF0F1",
+        tmoBg: "#D6EAF8",
+        footerBg: "#0A1E2C",
       },
       width: {
         header: "1440px",
