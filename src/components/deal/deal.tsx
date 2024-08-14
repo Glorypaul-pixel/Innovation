@@ -48,7 +48,7 @@ const Deal = () => {
             grow your business.
           </p>
         </div>
-        <div className="flex items-center bg-white p-1 w-1/2">
+        <div className="flex items-center justify-between bg-white p-1 w-1/2">
           <input
             type="text"
             className="outline-none text-textCustom h-hire-btn px-4 rounded-l-md"
@@ -56,7 +56,7 @@ const Deal = () => {
           />
           <a
             href="#hire"
-            className="bg-hireMe text-white h-hire-btn py-3 px-6 rounded-r-md"
+            className="bg-hireMe text-white h-hire-btn py-3 px-6 text-textCustom"
           >
             Subscribe
           </a>
@@ -64,8 +64,8 @@ const Deal = () => {
       </div>
 
       {/* Footer Section */}
-      <div className="bg-footerBg text-white text-textCustom mt-24">
-        <div className="flex space-x-10 pt-12 pl-52">
+      <div className="bg-footerBg text-white text-textCustom mt-24 ">
+        <div className="flex space-x-10 pt-20 pl-52">
           <div>
             <p className="font-semibold pb-2">Quick Links</p>
             <ul>

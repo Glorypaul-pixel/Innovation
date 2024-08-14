@@ -12,31 +12,42 @@ const Testimonial = () => {
         <h5 className="text-spanText text-textCustom font-semibold mb-2">
           TESTIMONIALS
         </h5>
-        <h1 className="text-2xl lg:text-3xl text-tmotext mb-8 font-fira font-medium">
+        <h1 className="text-2xl lg:text-3xl text-tmotext mb-8 font-fira font-medium pb-8">
           What our client{"'"}s Say
         </h1>
       </div>
-      <div className="flex justify-between space-x-8 px-32">
-        <div className="bg-white p-4 w-1/2 relative">
-          <div className="absolute right-0 transform translate-y-[-50%] top-0">
-            <Image src={Dp1} alt="IBT REAL ESTATE" style={{ width: "100%" }} />
+      <div className="flex justify-between space-x-12 px-32">
+        
+        <div className="relative w-1/2">
+          <div className="absolute left-[-1.6rem] top-7 z-10">
+            <Image src={Polygon} alt="Polygon Background" />
           </div>
-          <div className="absolute left-[-1rem]">
-            <Image src={Polygon} alt="" />
-          </div>
-          <div className="">
-            <div className="global bg-black text-white absolute left-[-1rem] transform translate-y-[-45%] top-0 rounded-tr-full py-2 px-8">
-              <h1 className="font-bold font-fira text-textCustom">
-                IBT REAL ESTATE
-              </h1>
-              <p className="text-custom font-fira">Review</p>
-              <Image src={Star} alt="Star Rating" style={{ width: "12%" }} />
+          <div className="bg-white p-4 flex-1 z-20 pb-9 mainDiv relative">
+            <div className="absolute right-0 transform translate-y-[-50%] top-0 z-30">
+              <Image
+                src={Dp1}
+                alt="IBT REAL ESTATE"
+                style={{ width: "100%" }}
+              />
+            </div>
+           
+            <div className="global bg-moniaBg text-white absolute left-[-1.7rem]  transform translate-y-[-40%] top-0 rounded-tr-full z-30">
+              <div className="pl-6 pr-14 pt-2">
+                <h1 className="font-bold font-fira text-textCustom">
+                  IBT REAL ESTATE
+                </h1>
+                <p className="text-custom font-fira">Review</p>
+              </div>
+
+              <div className="flex items-end justify-end w-full px-2 pb-2">
+                <Image src={Star} alt="Star Rating" style={{ width: "30%" }} />
+              </div>
             </div>
 
-            <h1 className="text-sm mt-4 font-bold text-center font-fira text-tmotext">
+            <h1 className="text-sm mt-4 font-bold text-center font-fira text-tmotext pt-3">
               Sophia Rodriguez
             </h1>
-            <h4 className="text-center font-medium font-fira text-textCustom">
+            <h4 className=" pb-2 text-center font-medium font-fira text-textCustom">
               Realtor
             </h4>
             <p className="mt-2 font-fira text-pTmotext text-sm">
@@ -47,30 +58,37 @@ const Testimonial = () => {
             </p>
           </div>
         </div>
-        <div className="bg-white p-4 w-1/2 relative">
-          <div className="absolute right-0 transform translate-y-[-50%] top-0">
-            <Image
-              src={Dp2}
-              alt="GLOBAL STANDS LTD"
-              style={{ width: "100%" }}
-            />
+
+
+        <div className="relative w-1/2">
+          <div className="absolute left-[-1.6rem] top-7 z-10">
+            <Image src={Polygon} alt="Polygon Background" />
           </div>
-          <div className="absolute left-[-1rem] ">
-            <Image src={Polygon} alt="" />
-          </div>
-          <div className="">
-            <div className="global bg-black text-white absolute left-[-1rem] px-8 py-2 transform translate-y-[-40%] top-0 rounded-tr-full">
-              <h1 className="font-bold font-fira text-textCustom">
-                GLOBAL STANDS LTD
-              </h1>
-              <p className="text-custom font-fira">Review</p>
-              <Image src={Star} alt="Star Rating" style={{ width: "12%" }} />
+          <div className="bg-white p-4 z-20  mainDiv relative ">
+            <div className="absolute right-0 transform translate-y-[-50%] top-0 z-30">
+              <Image
+                src={Dp2}
+                alt="GLOBAL STANDS LTD"
+                style={{ width: "100%" }}
+              />
+            </div>
+            <div className="global bg-moniaBg text-white absolute left-[-1.6rem]  transform translate-y-[-40%] top-0 rounded-tr-full z-30">
+              <div className="pl-6 pr-14 pt-2">
+                <h1 className="font-bold font-fira text-textCustom">
+                  GLOBAL STANDS LTD
+                </h1>
+                <p className="text-custom font-fira">Review</p>
+              </div>
+
+              <div className="flex items-end justify-end w-full px-2 pb-2">
+                <Image src={Star} alt="Star Rating" style={{ width: "30%" }} />
+              </div>
             </div>
 
-            <h1 className="text-sm mt-4 font-bold text-center font-fira text-tmotext">
+            <h1 className="text-sm mt-4 font-bold text-center font-fira text-tmotext pt-3">
               Jayce Roque
             </h1>
-            <h4 className="text-center font-medium font-fira text-textCustom">
+            <h4 className="text-center font-medium font-fira text-textCustom pb-2">
               Creative Director
             </h4>
             <p className="mt-2 font-fira text-pTmotext text-sm">

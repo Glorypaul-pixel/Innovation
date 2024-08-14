@@ -9,7 +9,7 @@ import Image from "next/image";
 import "./service.css";
 const service = () => {
   return (
-    <div className="">
+    <div className="p-8">
       <div className="text-center">
         <h5 className="text-spanText text-textCustom font-semibold mb-2 ">
           OUR SERVICES

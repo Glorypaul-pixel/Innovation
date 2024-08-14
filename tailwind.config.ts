@@ -25,6 +25,7 @@ const config: Config = {
         advertBg: "#ECF0F1",
         tmoBg: "#D6EAF8",
         footerBg: "#0A1E2C",
+        moniaBg : "#0B2347"
       },
       width: {
         header: "1440px",
