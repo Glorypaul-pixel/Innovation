@@ -17,6 +17,7 @@ const config: Config = {
         hireMe: "#3498DB",
         navText: "#0B2347",
         spanText: "#2ECC71",
+        qoute: "#F39C12",
       },
       backgroundColor: {
         advertBg: "#ECF0F1",
