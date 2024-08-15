@@ -8,7 +8,7 @@ import Image from "next/image";
 const Main: React.FC = () => {
   return (
     <div className="innovation text-black relative">
-      <div className="innovation-content flex flex-col md:flex-row items-center justify-between p-4 w-full">
+      <div className="innovation-content flex flex-col md:flex-row justify-between p-4 w-full">
         <div className="text-content w-full md:w-1/2 p-4">
           <div className="block text-textCustom font-semibold mb-2 text-spanText font-inter">
             WELCOME TO THE FUTURE OF INNOVATIONS
