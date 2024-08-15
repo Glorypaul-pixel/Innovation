@@ -12,7 +12,7 @@ const Testimonial = () => {
         <h5 className="text-spanText text-textCustom font-semibold mb-2 font-inter">
           TESTIMONIALS
         </h5>
-        <h1 className="text-3xl lg:text-3xl text-tmotext mb-14 font-fira font-medium pb-8">
+        <h1 className="text-3xl lg:text-3xl text-tmotext mb-16 font-fira font-medium pb-10">
           What our client{"'"}s Say
         </h1>
       </div>
@@ -32,7 +32,7 @@ const Testimonial = () => {
             </div>
            
             <div className="global bg-moniaBg text-white absolute left-[-1.7rem]  transform translate-y-[-40%] top-0 rounded-tr-full z-30">
-              <div className="pl-6 pr-14 pt-2">
+              <div className="pl-6 pr-20 pt-2">
                 <h1 className="font-bold font-fira text-textCustom">
                   IBT REAL ESTATE
                 </h1>
@@ -73,7 +73,7 @@ const Testimonial = () => {
               />
             </div>
             <div className="global bg-moniaBg text-white absolute left-[-1.6rem]  transform translate-y-[-40%] top-0 rounded-tr-full z-30">
-              <div className="pl-6 pr-14 pt-2">
+              <div className="pl-6 pr-20 pt-2">
                 <h1 className="font-bold font-fira text-textCustom">
                   GLOBAL STANDS LTD
                 </h1>
