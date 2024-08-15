@@ -8,12 +8,12 @@ import Image from "next/image";
 const Main: React.FC = () => {
   return (
     <div className="innovation text-black relative">
-      <div className="innovation-content flex flex-col md:flex-row justify-between p-4 w-full">
+      <div className="innovation-content flex flex-col md:flex-row items-center justify-between p-4 w-full">
         <div className="text-content w-full md:w-1/2 p-4">
           <div className="block text-textCustom font-semibold mb-2 text-spanText font-inter">
             WELCOME TO THE FUTURE OF INNOVATIONS
           </div>
-          <h1 className="text-3xl lg:text-3xl leading-9 font-medium mb-3 text-hireMe font-fira">
+          <h1 className="text-3xl lg:text-3xl leading-9 font-medium mb-6 text-hireMe font-fira">
             Empowering Businesses with <br /> the Quantum Tech Advantage.
           </h1>
           <p className="leading-relaxed text-lg lg:text-lg font-fira">
@@ -24,7 +24,7 @@ const Main: React.FC = () => {
             the forefront. Join us on a journey where <br />
             possibilities are limitless, and the future is now.
           </p>
-          <div className="pt-8">
+          <div className="pt-10">
             <a
               href="#hire"
               className="bg-hireMe text-white font-bold h-hire-btn w-hire-btn py-3 text-center px-10 text-base"
