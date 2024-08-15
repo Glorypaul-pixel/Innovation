@@ -87,7 +87,7 @@ const About: React.FC = () => {
             <h1 className="text-qoute text-9xl font-fira absolute left-8 top-12">
               {"“"}
             </h1>
-            <h1 className="text-lg font-semibold px-20 font-fira pt-9 relative z-10">
+            <h1 className="text-2xl font-semibold px-20 font-fira pt-9 relative z-10">
               My vision for QuantumTech is rooted in the belief that technology
               has the power to transform not just businesses, but the entire
               business ecosystem. We{"'"}re not just creating solutions; we{"'"}

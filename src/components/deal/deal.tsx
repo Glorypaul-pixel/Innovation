@@ -17,8 +17,8 @@ const Deal = () => {
             Ready to Transform Your <br /> Business with QuantumTech?
           </h1>
           <p className="text-lg font-fira font-normal">
-            At QuantumTech, we <br />
-            are pioneering a new era of <br />
+            At QuantumTech, we{"'"}re not just providing <br /> solutions{";"}{" "}
+            we{"'"}re pioneering a new era of <br />
             possibilities for your business. Embrace the <br />
             future of technology, where innovation meets <br /> excellence.
           </p>
@@ -32,7 +32,7 @@ const Deal = () => {
           </div>
         </div>
         <div className="w-1/2 flex items-end justify-end">
-          <Image src={LaptopImg} alt="" style={{ width: "90%" }} />
+          <Image src={LaptopImg} alt="" style={{ width: "80%" }} />
         </div>
       </div>
       <div className="absolute inset-x-0 top-1/2 bg-hireMe flex justify-between items-center p-6 z-10 m-6">

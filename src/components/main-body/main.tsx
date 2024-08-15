@@ -38,7 +38,7 @@ const Main: React.FC = () => {
             src={BackgroundImg}
             alt="Background image"
             className="h-auto relative z-10"
-            style={{ width: "100%" }}
+            style={{ width: "90%" }}
           />
           <Image
             src={Box}
