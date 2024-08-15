@@ -60,7 +60,7 @@ const Deal = () => {
         </div>
       </div>
       <div className="bg-footerBg text-white text-textCustom mt-16 font-fira">
-        <div className="flex space-x-10 pt-14 pl-52">
+        <div className="flex space-x-10 pt-10 pl-52">
           <div>
             <p className="font-semibold pb-2">Quick Links</p>
             <ul>
