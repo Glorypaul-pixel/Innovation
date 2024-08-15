@@ -24,7 +24,7 @@ const Main: React.FC = () => {
             the forefront. Join us on a journey where <br />
             possibilities are limitless, and the future is now.
           </p>
-          <div className="pt-10">
+          <div className="pt-14">
             <a
               href="#hire"
               className="bg-hireMe text-white font-bold h-hire-btn w-hire-btn py-3 text-center px-10 text-base"
