@@ -11,10 +11,10 @@ const service = () => {
   return (
     <div className="p-8">
       <div className="text-center">
-        <h5 className="text-spanText text-textCustom font-semibold mb-2 ">
+        <h5 className="text-spanText text-textCustom font-semibold mb-2 font-inter">
           OUR SERVICES
         </h5>
-        <h1 className="text-2xl lg:text-3xl text-hireMe mb-8 font-fira font-medium">
+        <h1 className="text-3xl lg:text-3xl text-hireMe mb-8 font-fira font-medium">
           What we do
         </h1>
       </div>
@@ -23,7 +23,7 @@ const service = () => {
           <div>
             <Image src={AImg} alt="AI and Machine Learning Integration" />
           </div>
-          <h3 className="text-base font-fira mb-2">
+          <h3 className="text-lg font-fira mb-2">
             AI and Machine Learning Integration
           </h3>
           <p className="text-textCustom">
@@ -38,7 +38,7 @@ const service = () => {
           <div>
             <Image src={CloudImg} alt="Cloud Computing Solutions" />
           </div>
-          <h3 className="text-base font-fira mb-2">
+          <h3 className="text-lg font-fira mb-2">
             Cloud Computing Solutions
           </h3>
           <p className="text-textCustom">
@@ -56,7 +56,7 @@ const service = () => {
               alt="User Interface (UI) and User Experience (UX) Design"
             />
           </div>
-          <h3 className="text-base font-fira mb-2">
+          <h3 className="text-lg font-fira mb-2">
             User Interface (UI) and User Experience (UX) Design
           </h3>
           <p className="text-textCustom">
@@ -71,7 +71,7 @@ const service = () => {
           <div>
             <Image src={ProjectImg} alt="Project Management Solutions" />
           </div>
-          <h3 className="text-base font-fira mb-2">
+          <h3 className="text-lg font-fira mb-2">
             Project Management Solutions
           </h3>
           <p className="text-textCustom">
@@ -89,7 +89,7 @@ const service = () => {
               alt="Data Analytics and Business Intelligence"
             />
           </div>
-          <h3 className="text-base font-fira mb-2">
+          <h3 className="text-lg font-fira mb-2">
             Data Analytics and Business Intelligence
           </h3>
           <p className="text-textCustom">
@@ -103,7 +103,7 @@ const service = () => {
           <div>
             <Image src={CyberImg} alt="Cybersecurity Solutions" />
           </div>
-          <h3 className="text-base font-fira mb-2">Cybersecurity Solutions</h3>
+          <h3 className="text-lg font-fira mb-2">Cybersecurity Solutions</h3>
           <p className="text-textCustom">
             Ensure the security of your digital infrastructure with our
             comprehensive cybersecurity solutions. From threat intelligence to

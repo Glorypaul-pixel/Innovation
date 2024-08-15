@@ -9,10 +9,10 @@ const Testimonial = () => {
   return (
     <div className="bg-tmoBg py-8 mt-12">
       <div className="text-center mb-8">
-        <h5 className="text-spanText text-textCustom font-semibold mb-2">
+        <h5 className="text-spanText text-textCustom font-semibold mb-2 font-inter">
           TESTIMONIALS
         </h5>
-        <h1 className="text-2xl lg:text-3xl text-tmotext mb-8 font-fira font-medium pb-8">
+        <h1 className="text-3xl lg:text-3xl text-tmotext mb-8 font-fira font-medium pb-8">
           What our client{"'"}s Say
         </h1>
       </div>
@@ -22,7 +22,7 @@ const Testimonial = () => {
           <div className="absolute left-[-1.6rem] top-7 z-10">
             <Image src={Polygon} alt="Polygon Background" />
           </div>
-          <div className="bg-white p-4 flex-1 z-20 pb-9 mainDiv relative">
+          <div className="bg-white p-4 flex-1 z-20  mainDiv relative">
             <div className="absolute right-0 transform translate-y-[-50%] top-0 z-30">
               <Image
                 src={Dp1}
@@ -44,13 +44,13 @@ const Testimonial = () => {
               </div>
             </div>
 
-            <h1 className="text-sm mt-4 font-bold text-center font-fira text-tmotext pt-3">
+            <h1 className="text-base mt-4 font-bold text-center font-fira text-tmotext pt-3">
               Sophia Rodriguez
             </h1>
             <h4 className=" pb-2 text-center font-medium font-fira text-textCustom">
               Realtor
             </h4>
-            <p className="mt-2 font-fira text-pTmotext text-sm">
+            <p className="mt-2 font-fira text-pTmotext text-base">
               QuantumTech{"'"}s solutions have revolutionized the way we conduct
               business. The increase in operational efficiency has allowed us to
               focus more on strategic initiatives, ultimately contributing to
@@ -85,13 +85,13 @@ const Testimonial = () => {
               </div>
             </div>
 
-            <h1 className="text-sm mt-4 font-bold text-center font-fira text-tmotext pt-3">
+            <h1 className="text-base mt-4 font-bold text-center font-fira text-tmotext pt-3">
               Jayce Roque
             </h1>
             <h4 className="text-center font-medium font-fira text-textCustom pb-2">
               Creative Director
             </h4>
-            <p className="mt-2 font-fira text-pTmotext text-sm">
+            <p className="mt-2 font-fira text-pTmotext text-base">
               In our pursuit of digital transformation, QuantumTech has been a
               key partner. Their innovative BusinessTech solutions have not only
               met but exceeded our expectations, providing the technological

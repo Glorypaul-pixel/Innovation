@@ -8,15 +8,15 @@ import Image from "next/image";
 const Main: React.FC = () => {
   return (
     <div className="innovation text-black relative">
-      <div className="innovation-content flex flex-col md:flex-row items-center justify-between p-4">
-        <div className="text-content md:w-2/5 w-full p-4">
-          <div className="block text-textCustom font-semibold mb-4 text-spanText">
+      <div className="innovation-content flex flex-col md:flex-row items-center justify-between p-4 w-full">
+        <div className="text-content w-full md:w-1/2 p-4">
+          <div className="block text-textCustom font-semibold mb-2 text-spanText font-inter">
             WELCOME TO THE FUTURE OF INNOVATIONS
           </div>
-          <h1 className="text-2xl lg:text-3xl leading-9 font-medium mb-8 text-hireMe font-fira">
+          <h1 className="text-3xl lg:text-3xl leading-9 font-medium mb-3 text-hireMe font-fira">
             Empowering Businesses with <br /> the Quantum Tech Advantage.
           </h1>
-          <p className="leading-relaxed text-base lg:text-lg font-fira">
+          <p className="leading-relaxed text-lg lg:text-lg font-fira">
             At Quantum Tech Innovations, we{"'"}re pioneers in <br /> pushing
             the boundaries of technology. Our <br />
             futuristic solutions are designed to positively <br />
@@ -24,7 +24,7 @@ const Main: React.FC = () => {
             the forefront. Join us on a journey where <br />
             possibilities are limitless, and the future is now.
           </p>
-          <div className="pt-10">
+          <div className="pt-8">
             <a
               href="#hire"
               className="bg-hireMe text-white font-bold h-hire-btn w-hire-btn py-3 text-center px-10 text-base"
@@ -33,12 +33,12 @@ const Main: React.FC = () => {
             </a>
           </div>
         </div>
-        <div className="image-content md:w-3/5 w-full p-4 relative">
+        <div className="image-content w-full md:w-1/2 p-4 relative">
           <Image
             src={BackgroundImg}
             alt="Background image"
-            className=" h-auto relative z-10"
-            style={{ width: "90%" }}
+            className="h-auto relative z-10"
+            style={{ width: "100%" }}
           />
           <Image
             src={Box}
@@ -53,7 +53,6 @@ const Main: React.FC = () => {
           />
         </div>
       </div>
-    
     </div>
   );
 };

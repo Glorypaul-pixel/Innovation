@@ -52,10 +52,11 @@ const config: Config = {
       },
       fontFamily: {
         fira: ["Fira Sans", "sans-serif"],
+        inter: ["Inter"]
       },
       fontSize: {
-        custom: "8px",
-        textCustom: "10px",
+        custom: "10px",
+        textCustom: "12px",
       },
       lineHeight: {
         custom: "8px",
