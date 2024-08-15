@@ -13,7 +13,7 @@ const Main: React.FC = () => {
           <div className="block text-textCustom font-semibold mb-4 text-spanText font-inter">
             WELCOME TO THE FUTURE OF INNOVATIONS
           </div>
-          <h1 className="text-3xl lg:text-3xl leading-9 font-medium mb-10 text-hireMe font-fira">
+          <h1 className="text-3xl lg:text-3xl leading-9 font-medium mb-8 text-hireMe font-fira">
             Empowering Businesses with <br /> the Quantum Tech Advantage.
           </h1>
           <p className="leading-relaxed text-lg lg:text-lg font-fira">
@@ -24,7 +24,7 @@ const Main: React.FC = () => {
             the forefront. Join us on a journey where <br />
             possibilities are limitless, and the future is now.
           </p>
-          <div className="pt-16">
+          <div className="pt-12">
             <a
               href="#hire"
               className="bg-hireMe text-white font-bold h-hire-btn w-hire-btn py-3 text-center px-10 text-base"
