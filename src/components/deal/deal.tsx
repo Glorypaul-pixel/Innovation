@@ -10,10 +10,10 @@ const Deal = () => {
     <div className="relative">
       <div className="flex justify-between p-8 md-6 pb-24">
         <div>
-          <h5 className="text-spanText text-textCustom font-semibold mb-2 font-inter">
+          <h5 className="text-spanText text-textCustom font-semibold mb-4 font-inter">
             LET’S SHAPE YOUR BUSINESS
           </h5>
-          <h1 className="text-3xl lg:text-3xl text-hireMe mb-4 font-fira font-medium">
+          <h1 className="text-3xl lg:text-3xl text-hireMe mb-8 font-fira font-medium">
             Ready to Transform Your <br /> Business with QuantumTech?
           </h1>
           <p className="text-lg font-fira font-normal">
@@ -22,7 +22,7 @@ const Deal = () => {
             possibilities for your business. Embrace the <br />
             future of technology, where innovation meets <br /> excellence.
           </p>
-          <div className="pt-10">
+          <div className="pt-14">
             <a
               href="#hire"
               className="bg-hireMe text-white font-bold h-hire-btn w-hire-btn py-3 text-center px-10 text-base"
@@ -59,8 +59,8 @@ const Deal = () => {
           </a>
         </div>
       </div>
-      <div className="bg-footerBg text-white text-textCustom mt-16 font-fira">
-        <div className="flex space-x-10 pt-10 pl-52">
+      <div className="bg-footerBg text-white text-textCustom mt-20 font-fira pt-10">
+        <div className="flex space-x-10 pt-20 pl-52">
           <div>
             <p className="font-semibold pb-2">Quick Links</p>
             <ul>
