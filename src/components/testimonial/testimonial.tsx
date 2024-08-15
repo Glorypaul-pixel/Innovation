@@ -12,7 +12,7 @@ const Testimonial = () => {
         <h5 className="text-spanText text-textCustom font-semibold mb-2 font-inter">
           TESTIMONIALS
         </h5>
-        <h1 className="text-3xl lg:text-3xl text-tmotext mb-8 font-fira font-medium pb-8">
+        <h1 className="text-3xl lg:text-3xl text-tmotext mb-14 font-fira font-medium pb-8">
           What our client{"'"}s Say
         </h1>
       </div>
