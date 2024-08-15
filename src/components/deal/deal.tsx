@@ -8,7 +8,6 @@ import Image from "next/image";
 const Deal = () => {
   return (
     <div className="relative">
-      {/* Main Content Section */}
       <div className="flex justify-between p-8 md-6">
         <div>
           <h5 className="text-spanText text-textCustom font-semibold mb-2">
@@ -36,8 +35,6 @@ const Deal = () => {
           <Image src={LaptopImg} alt="" style={{ width: "85%" }} />
         </div>
       </div>
-
-      {/* Subscription Section */}
       <div className="absolute inset-x-0 top-1/2 bg-hireMe flex justify-between items-center p-6 z-10 m-6">
         <div className="font-fira text-white max-w-md">
           <h1 className="text-lg font-bold">
@@ -62,8 +59,6 @@ const Deal = () => {
           </a>
         </div>
       </div>
-
-      {/* Footer Section */}
       <div className="bg-footerBg text-white text-textCustom mt-24 ">
         <div className="flex space-x-10 pt-20 pl-52">
           <div>
