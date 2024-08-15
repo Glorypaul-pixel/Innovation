@@ -27,7 +27,7 @@ const Testimonial = () => {
               <Image
                 src={Dp1}
                 alt="IBT REAL ESTATE"
-                style={{ width: "100%" }}
+                // style={{ width: "100%" }}
               />
             </div>
            
@@ -69,7 +69,7 @@ const Testimonial = () => {
               <Image
                 src={Dp2}
                 alt="GLOBAL STANDS LTD"
-                style={{ width: "100%" }}
+                // style={{ width: "100%" }}
               />
             </div>
             <div className="global bg-moniaBg text-white absolute left-[-1.6rem]  transform translate-y-[-40%] top-0 rounded-tr-full z-30">
